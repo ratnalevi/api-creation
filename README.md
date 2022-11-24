@@ -22,6 +22,8 @@ API endpoints:
 3. GET: http://127.0.0.1:8000/orders/v1 - To list all orders
 4. GET: http://127.0.0.1:8000/orders/v1?status=NEW - To list orders based on status
 5. GET: http://127.0.0.1:8000/orders/v1?orderId=1 - To list order by ID
+6. GET:  http://127.0.0.1:8000/orders/v1/delayed?startTime=2022-10-25 10:11:11&endTime=2022-11-25 10:11:11 - To get delayed orders within the date range
+
 
 Migration: I have also created migration scripts so that the deployment on any new system will be easier.
 
